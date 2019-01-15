@@ -3,9 +3,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 /**
  * Created by uengine on 2018. 12. 19..
  */
-public interface CourseRepository extends PagingAndSortingRepository<Course, Long> {
-
-    system.out.ptintln("test");
-
-
+public interface CourseRepository extends PagingAndSortingRepository<Course, Long> 
 }
